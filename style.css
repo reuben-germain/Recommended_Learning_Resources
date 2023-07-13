@@ -12,6 +12,7 @@ body >h1{
 }
 
 /* Header Section*/
+
 h1{
     text-align: center;
     word-spacing: 0.3em;
@@ -40,27 +41,22 @@ span, .yellow{
 }
 
 /* Main Section*/
+
+.container {
+    display: flex;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  aside {
+    flex: 1;
+  }
+  
+
 main{
     margin-top: 60px;
-}
-
-h2{
-    font-size: 2em;
-    margin-top: 1.25em;
-}
-
-p{
-    font-size: 1.5em;
-}
-
-ol li{
-    font-size: 1.4em;
-}
-
-a{
-    position: relative;
-    z-index: 1;
-    font-size: 1.5em;
 }
 
 main:before{
@@ -77,6 +73,31 @@ main:before{
     height: 230vh;
     opacity: 0.2;
 }
+
+h2{
+    font-size: 2em;
+    margin-top: 1.25em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+ol li{
+    font-size: 1.4em;
+}
+
+ul li{
+    font-size: 1.1em;
+}
+
+a{
+    position: relative;
+    z-index: 1;
+    font-size: 1.5em;
+}
+
+
 
 p{
     margin-left: 25px;
