@@ -33,7 +33,12 @@ span, .yellow{
     margin-top: 60px;
 }
 
-.bc::before{
+a{
+    position: relative;
+    z-index: 1;
+}
+
+.bc:before{
     content: "";
     background-image: url(https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg);
     background-size:cover;
