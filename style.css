@@ -4,11 +4,11 @@
 
 
 body{
-    margin-left: 25px;
+    margin-left: 1.5625em;
 }
 
-body >h1{
-    margin-left: -30px;
+header{
+    margin-left: -1.875em;
 }
 
 /* Header Section*/
@@ -56,8 +56,8 @@ span, .yellow{
 
   section{
     font-size: 1.4em;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding: 25px 10px 25px 10px;
+    
     border: solid blue;
   }
 
@@ -68,6 +68,13 @@ span, .yellow{
 
   aside{
     flex: 1;
+  }
+
+  img{
+    width: 70vh;
+    border-radius: 10px;
+    margin-top: 5em;
+    opacity: 0.7;
   }
 
   .section-container{
@@ -109,6 +116,7 @@ p{
 
 ol li{
     font-size: 1.4em;
+    padding-right: 10px;
 }
 
 ul li{
@@ -121,6 +129,7 @@ a{
     z-index: 1;
     font-size: 1.4rem;
     text-decoration: none;
+    color: red;
 }
 
 p{
@@ -136,4 +145,12 @@ p{
 
 li{
     margin-bottom: 1rem;
+}
+footer{
+    height: 60px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
 }
