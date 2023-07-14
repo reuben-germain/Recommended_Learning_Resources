@@ -23,6 +23,7 @@ h1{
     color: whitesmoke;
     text-shadow: 3px 3px #5a5a5a;
     letter-spacing: 0.4em;
+    border: solid green;
 }
 
 span{
@@ -45,10 +46,24 @@ span, .yellow{
 .container {
     display: flex;
     flex-wrap: wrap;
+    border: solid yellow;
   }
   
   main {
     flex: 2;
+    border: solid green;
+  }
+
+  section{
+    font-size: 1.4em;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border: solid blue;
+  }
+
+  .aside-container{
+    border: solid gray;
+    margin-top: 58px;
   }
 
   aside{
@@ -57,6 +72,8 @@ span, .yellow{
 
   .section-container{
     flex: 1;
+    border: dotted blue;
+    margin-top: 120px;
   }
   
 main{
@@ -78,15 +95,11 @@ main:before{
     opacity: 0.2;
 }
 
-.container-b{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 h2{
-    font-size: 2em;
+    font-size: 2rem;
     margin-top: 1.25em;
     text-align: center;
+    border: solid red;
 }
 
 p{
@@ -100,28 +113,27 @@ ol li{
 
 ul li{
     font-size: 1.1em;
+    color: blue;
 }
 
 a{
     position: relative;
     z-index: 1;
-    font-size: 1.5em;
+    font-size: 1.4rem;
+    text-decoration: none;
 }
 
 p{
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 400px;
 }
 
-a{
-    text-decoration: none;
-}
-
-li{
-    margin-bottom: 20px;
+.yt{
+    font-size: 1.4rem;
 }
 
 li{
-    font-size: 1em;
+    margin-bottom: 1rem;
 }
