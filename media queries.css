@@ -1,0 +1,55 @@
+/* Mobile devices */
+@media (max-width: 767px) {
+    header{
+        font-size: 0.5em;
+        margin-left: -4em;
+    }
+    section{
+        font-size: 1.1em;
+        text-align: justify;
+        color: darkslategrey;
+    }
+    section h2{
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    ol li{
+        font-size: 1em;
+    }
+    ul li{
+        font-size: 1em;
+    }
+
+
+
+
+
+
+    .aside-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside{
+        font-size: 1em;
+    }
+
+    aside h2{
+        font-size: 1.2em;
+        background-color: aquamarine;
+    }
+    aside p{
+        font-size: 1em;
+    }
+}
+
+/* Tablets and small desktop screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Add your tablet-specific styles here */
+}
+
+/* Medium and large desktop screens */
+@media (min-width: 992px) {
+    /* Add your desktop-specific styles here */
+}

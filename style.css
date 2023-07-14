@@ -1,24 +1,24 @@
-*{
+* {
     margin: 0;
 }
 
 
-body{
+body {
     margin-left: 1.5625em;
 }
 
-header{
+header {
     margin-left: -1.875em;
 }
 
 /* Header Section*/
 
-h1{
+h1 {
     text-align: center;
     word-spacing: 0.3em;
     font-family: 'Arial Narrow Bold', sans-serif;
     padding: 20px;
-    background-color:   red;
+    background-color: red;
     height: 60px;
     color: whitesmoke;
     text-shadow: 3px 3px #5a5a5a;
@@ -26,18 +26,19 @@ h1{
     border: solid green;
 }
 
-span{
+span {
     color: black;
     font-family: 'Nanum Brush Script', cursive;
 }
 
-.yellow{
+.yellow {
     color: yellow;
     font-family: 'Nanum Brush Script', cursive;
     text-shadow: 5px 5px #5a5a5a;
 }
 
-span, .yellow{
+span,
+.yellow {
     font-size: 3.125rem;
 }
 
@@ -47,50 +48,50 @@ span, .yellow{
     display: flex;
     flex-wrap: wrap;
     border: solid yellow;
-  }
-  
-  main {
+}
+
+main {
     flex: 2;
     border: solid green;
-  }
+}
 
-  section{
+section {
     font-size: 1.4em;
     padding: 25px 10px 25px 10px;
-    
-    border: solid blue;
-  }
 
-  .aside-container{
+    border: solid blue;
+}
+
+.aside-container {
     border: solid gray;
     margin-top: 58px;
-  }
+}
 
-  aside{
+aside {
     flex: 1;
-  }
+}
 
-  img{
+img {
     width: 70vh;
     border-radius: 10px;
     margin-top: 5em;
     opacity: 0.7;
-  }
+}
 
-  .section-container{
+.section-container {
     flex: 1;
     border: dotted blue;
     margin-top: 120px;
-  }
-  
-main{
+}
+
+main {
     margin-top: 60px;
 }
 
-main:before{
+main:before {
     content: "";
     background-image: url(https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg);
-    background-size:cover;
+    background-size: cover;
     position: absolute;
     margin-top: 120px;
     top: 0px;
@@ -102,29 +103,29 @@ main:before{
     opacity: 0.2;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     margin-top: 1.25em;
     text-align: center;
     border: solid red;
 }
 
-p{
+p {
     font-size: 1.5em;
     text-align: center;
 }
 
-ol li{
+ol li {
     font-size: 1.4em;
     padding-right: 10px;
 }
 
-ul li{
+ul li {
     font-size: 1.1em;
     color: blue;
 }
 
-a{
+a {
     position: relative;
     z-index: 1;
     font-size: 1.4rem;
@@ -132,21 +133,22 @@ a{
     color: red;
 }
 
-p{
+p {
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 400px;
 }
 
-.yt{
+.yt {
     font-size: 1.4rem;
 }
 
-li{
+li {
     margin-bottom: 1rem;
 }
-footer{
+
+footer {
     height: 60px;
     background-color: red;
     display: flex;
