@@ -4,6 +4,10 @@
         font-size: 0.5em;
         margin-left: -4em;
     }
+    .section-container{
+        font-size: 1em;
+        padding: 25px 10px 25px 10px;
+    }
     section{
         font-size: 1.1em;
         text-align: justify;
@@ -33,14 +37,20 @@
 
     aside{
         font-size: 1em;
+        flex: 1;
     }
 
     aside h2{
         font-size: 1.2em;
-        background-color: aquamarine;
+        background-color: yellow;
+        opacity: 0.6;
+        border-radius: 50%;
+        width: 350px;
+        text-align: center;
     }
     aside p{
         font-size: 1em;
+        width: 350px;
     }
 }
 
